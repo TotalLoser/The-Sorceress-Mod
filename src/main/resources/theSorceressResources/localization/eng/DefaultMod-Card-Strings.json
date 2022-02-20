@@ -1,0 +1,61 @@
+{
+  "theSorceress:DefaultCommonAttack": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage. NL [#0000ff]This[] [#ff0000]Is[] [#ffff00]How[] [#88888]color[] [#ff00ff]works.[]"
+  },
+  "theSorceress:DefaultCommonSkill": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block. NL thesorceress:Multiword_Keyword."
+  },
+  "theSorceress:DefaultCommonPower": {
+    "NAME": "Hold Place",
+    "DESCRIPTION": "Gain !M! thesorceress:Keyword.",
+    "UPGRADE_DESCRIPTION": "Gain !M! thesorceress:Keywords."
+  },
+  "theSorceress:DefaultUncommonAttack": {
+    "NAME": "Big slap",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "theSorceress:DefaultUncommonSkill": {
+    "NAME": "A Better Defend",
+    "DESCRIPTION": "Gain !B! Plated Armor. Affected by Dexterity."
+  },
+  "theSorceress:DefaultUncommonPower": {
+    "NAME": "Weirdness",
+    "DESCRIPTION": "Gain X thesorceress:Keywords.",
+    "UPGRADE_DESCRIPTION": "Gain X +1 thesorceress:Keywords."
+  },
+  "theSorceress:DefaultRareAttack": {
+    "NAME": "TOUCH",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "theSorceress:DefaultRareSkill": {
+    "NAME": "For Each Loop x2",
+    "DESCRIPTION": "Apply !M! Vulnerable to all enemies, 2 times.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Vulnerable to all enemies, 3 times."
+  },
+  "theSorceress:DefaultRarePower": {
+    "NAME": "In-Progress Form",
+    "DESCRIPTION": "At the start of your turn, play a TOUCH."
+  },
+  "theSorceress:DefaultAttackWithVariable": {
+    "NAME": "Special Strike",
+    "DESCRIPTION": "Deal !D! damage [E] times. NL (Deal !theSorceress:ENERGY_DAMAGE! damage total.)"
+  },
+  "theSorceress:DefaultSecondMagicNumberSkill": {
+    "NAME": "Cool 2 Number Card",
+    "DESCRIPTION": "Apply !M! Vulnerable and !theSorceress:SecondMagic! poison to an enemy."
+  },
+  "theSorceress:OrbSkill": {
+    "NAME": "Get Orb",
+    "DESCRIPTION": "Channel 1 Default Orb."
+  },
+  "theSorceress:DummyCast": {
+    "NAME": "Cast",
+    "DESCRIPTION": "deal !D! damage and thesorceress:Cast."
+  },
+  "theSorceress:Cantrip": {
+    "NAME": "Cantrip",
+    "DESCRIPTION": "Deal !D! damage and gain !M! thesorceress:Concentration."
+  }
+}

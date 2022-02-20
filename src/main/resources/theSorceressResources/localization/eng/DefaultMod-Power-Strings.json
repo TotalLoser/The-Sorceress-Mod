@@ -1,0 +1,14 @@
+{
+"theSorceress:CommonPower": {
+        "NAME": "Placeholder Power",
+        "DESCRIPTIONS": ["You applied #b", " keyword.", " keywords."]
+},
+"theSorceress:RarePower": {
+        "NAME": "Placeholder Power",
+        "DESCRIPTIONS": ["At the start of your turn, TOUCH #b", " enemy." , " enemies."]
+},
+"theSorceress:Concentration": {
+        "NAME": "Concentration",
+        "DESCRIPTIONS": ["Amplify your next #yCast by #b", "."]
+}
+}
