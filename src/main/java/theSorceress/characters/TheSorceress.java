@@ -23,7 +23,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import theSorceress.SorceressMod;
 import theSorceress.cards.*;
-import theSorceress.relics.PlaceholderRelic2;
 import theSorceress.relics.sorceressRelics.ArcaneTattoo;
 
 
@@ -160,7 +159,7 @@ public class TheSorceress extends CustomPlayer {
         retVal.add(DefaultUncommonAttack.ID);
         retVal.add(DefaultRareAttack.ID);
 
-        retVal.add(DefaultCommonSkill.ID);
+        retVal.add(DefendSorceress.ID);
         retVal.add(DefaultUncommonSkill.ID);
         retVal.add(DefaultRareSkill.ID);
 
@@ -172,6 +171,7 @@ public class TheSorceress extends CustomPlayer {
         retVal.add(DefaultSecondMagicNumberSkill.ID);
         retVal.add(OrbSkill.ID);
         retVal.add(StrikeSorceress.ID);
+        retVal.add(DefendSorceress.ID);
         return retVal;
     }
 
