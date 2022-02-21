@@ -171,6 +171,7 @@ public class TheSorceress extends CustomPlayer {
         retVal.add(DefaultAttackWithVariable.ID);
         retVal.add(DefaultSecondMagicNumberSkill.ID);
         retVal.add(OrbSkill.ID);
+        retVal.add(StrikeSorceress.ID);
         return retVal;
     }
 
@@ -182,7 +183,7 @@ public class TheSorceress extends CustomPlayer {
         UnlockTracker.markRelicAsSeen(ArcaneTattoo.ID);
 
 //        retVal.add(PlaceholderRelic.ID);
-        retVal.add(PlaceholderRelic2.ID);
+        //etVal.add(PlaceholderRelic2.ID);
 //        retVal.add(DefaultClickableRelic.ID);
 //
 //        // Mark relics as seen - makes it visible in the compendium immediately

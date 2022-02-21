@@ -1,4 +1,8 @@
 {
+  "theSorceress:StrikeSorceress": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
   "theSorceress:DefaultCommonAttack": {
     "NAME": "Strike",
     "DESCRIPTION": "Deal !D! damage. NL [#0000ff]This[] [#ff0000]Is[] [#ffff00]How[] [#88888]color[] [#ff00ff]works.[]"
@@ -52,7 +56,7 @@
   },
   "theSorceress:DummyCast": {
     "NAME": "Cast",
-    "DESCRIPTION": "deal !D! damage and thesorceress:Cast."
+    "DESCRIPTION": "Deal !D! damage and thesorceress:Cast."
   },
   "theSorceress:Cantrip": {
     "NAME": "Cantrip",
