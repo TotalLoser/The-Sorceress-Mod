@@ -23,7 +23,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import theSorceress.SorceressMod;
 import theSorceress.cards.*;
-import theSorceress.relics.PlaceholderRelic2;
 import theSorceress.relics.sorceressRelics.ArcaneTattoo;
 
 
@@ -156,21 +155,31 @@ public class TheSorceress extends CustomPlayer {
 
         logger.info("Begin loading starter Deck Strings");
 
-        retVal.add(DefaultCommonAttack.ID);
-        retVal.add(DefaultUncommonAttack.ID);
-        retVal.add(DefaultRareAttack.ID);
-
-        retVal.add(DefaultCommonSkill.ID);
-        retVal.add(DefaultUncommonSkill.ID);
-        retVal.add(DefaultRareSkill.ID);
-
-        retVal.add(DefaultCommonPower.ID);
-        retVal.add(DefaultUncommonPower.ID);
-        retVal.add(DefaultRarePower.ID);
-
-        retVal.add(DefaultAttackWithVariable.ID);
-        retVal.add(DefaultSecondMagicNumberSkill.ID);
-        retVal.add(OrbSkill.ID);
+//        retVal.add(DefaultCommonAttack.ID);
+//        retVal.add(DefaultUncommonAttack.ID);
+//        retVal.add(DefaultRareAttack.ID);
+//
+//        retVal.add(DefendSorceress.ID);
+//        retVal.add(DefaultUncommonSkill.ID);
+//        retVal.add(DefaultRareSkill.ID);
+//
+//        retVal.add(DefaultCommonPower.ID);
+//        retVal.add(DefaultUncommonPower.ID);
+//        retVal.add(DefaultRarePower.ID);
+//
+//        retVal.add(DefaultAttackWithVariable.ID);
+//        retVal.add(DefaultSecondMagicNumberSkill.ID);
+//        retVal.add(OrbSkill.ID);
+        retVal.add(StrikeSorceress.ID);
+        retVal.add(StrikeSorceress.ID);
+        retVal.add(StrikeSorceress.ID);
+        retVal.add(StrikeSorceress.ID);
+        retVal.add(StrikeSorceress.ID);
+        retVal.add(DefendSorceress.ID);
+        retVal.add(DefendSorceress.ID);
+        retVal.add(DefendSorceress.ID);
+        retVal.add(DefendSorceress.ID);
+        retVal.add(Cantrip.ID);
         return retVal;
     }
 
@@ -182,7 +191,7 @@ public class TheSorceress extends CustomPlayer {
         UnlockTracker.markRelicAsSeen(ArcaneTattoo.ID);
 
 //        retVal.add(PlaceholderRelic.ID);
-        retVal.add(PlaceholderRelic2.ID);
+        //etVal.add(PlaceholderRelic2.ID);
 //        retVal.add(DefaultClickableRelic.ID);
 //
 //        // Mark relics as seen - makes it visible in the compendium immediately

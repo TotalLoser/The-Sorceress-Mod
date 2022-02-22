@@ -9,7 +9,7 @@ import theSorceress.characters.TheSorceress;
 
 import static theSorceress.SorceressMod.makeCardPath;
 
-public class DefaultCommonSkill extends AbstractDynamicCard {
+public class DefendSorceress extends AbstractDynamicCard {
 
     /*
      * Wiki-page: https://github.com/daviscook477/BaseMod/wiki/Custom-Cards
@@ -20,8 +20,8 @@ public class DefaultCommonSkill extends AbstractDynamicCard {
 
     // TEXT DECLARATION
 
-    public static final String ID = SorceressMod.makeID(DefaultCommonSkill.class.getSimpleName());
-    public static final String IMG = makeCardPath("Skill.png");
+    public static final String ID = SorceressMod.makeID(DefendSorceress.class.getSimpleName());
+    public static final String IMG = makeCardPath("Noimage.png");
 
     // /TEXT DECLARATION/
 
@@ -41,11 +41,11 @@ public class DefaultCommonSkill extends AbstractDynamicCard {
     // /STAT DECLARATION/
 
 
-    public DefaultCommonSkill() {
+    public DefendSorceress() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
         baseBlock = BLOCK;
 
-        this.tags.add(CardTags.STARTER_DEFEND); //Tag your strike, defend and form (Wraith form, Demon form, Echo form, etc.) cards so that they function correctly.
+        this.tags.add(CardTags.STARTER_DEFEND);
     }
 
     // Actions the card should do.
