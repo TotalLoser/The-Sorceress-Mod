@@ -39,6 +39,8 @@ import static theSorceress.characters.TheSorceress.Enums.COLOR_GRAY;
 public class TheSorceress extends CustomPlayer {
     public static final Logger logger = LogManager.getLogger(SorceressMod.class.getName());
 
+
+
     // =============== CHARACTER ENUMERATORS =================
     // These are enums for your Characters color (both general color and for the card library) as well as
     // an enum for the name of the player class - IRONCLAD, THE_SILENT, DEFECT, YOUR_CLASS ...
@@ -64,8 +66,13 @@ public class TheSorceress extends CustomPlayer {
     public static final int STARTING_HP = 75;
     public static final int MAX_HP = 75;
     public static final int STARTING_GOLD = 99;
-    public static final int CARD_DRAW = 9;
-    public static final int ORB_SLOTS = 3;
+    public static final int CARD_DRAW = 5;
+
+    public static final int INVOCATION_SLOTS = 1;
+    public static final int ATTUNEMENT_SLOTS = 2;
+    public static final int ORB_SLOTS = INVOCATION_SLOTS + ATTUNEMENT_SLOTS;
+    public int invocationslots = INVOCATION_SLOTS;
+    public int attunementslots = ATTUNEMENT_SLOTS;
 
     // =============== /BASE STATS/ =================
 
