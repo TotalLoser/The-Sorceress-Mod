@@ -52,7 +52,7 @@ public abstract class AbstractComponent extends AbstractOrb {
         {
             if(p instanceof Concentration)
             {
-                baseConcentration = p.amount;
+                this.baseConcentration = p.amount;
             }
         }
     }
