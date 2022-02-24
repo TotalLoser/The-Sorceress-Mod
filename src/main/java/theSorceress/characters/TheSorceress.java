@@ -187,6 +187,8 @@ public class TheSorceress extends CustomPlayer {
         retVal.add(DefendSorceress.ID);
         retVal.add(DefendSorceress.ID);
         retVal.add(Cantrip.ID);
+        retVal.add(DummyInvoke.ID);
+        retVal.add(DummyAttune.ID);
         return retVal;
     }
 
@@ -312,6 +314,11 @@ public class TheSorceress extends CustomPlayer {
     @Override
     public String getVampireText() {
         return TEXT[2];
+    }
+
+    public String getFullSlotsText()
+    {
+        return TEXT[3];
     }
 
 }
