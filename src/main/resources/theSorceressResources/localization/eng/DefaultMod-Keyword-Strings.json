@@ -32,7 +32,13 @@
     "NAMES": [
       "invoke"
     ],
-    "DESCRIPTION": "Replace your current #yInvocation with a new #yComponent."
+    "DESCRIPTION": "#yInvoking a #yComponent changes your current invocation to be that component"
+  },
+  {
+    "NAMES": [
+      "attune"
+    ],
+    "DESCRIPTION": "#yAttuning a #yComponent adds it to an empty slot if one exists"
   },
   {
     "NAMES": [

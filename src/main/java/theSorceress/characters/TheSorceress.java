@@ -314,4 +314,9 @@ public class TheSorceress extends CustomPlayer {
         return TEXT[2];
     }
 
+    public String getFullSlotsText()
+    {
+        return TEXT[3];
+    }
+
 }
