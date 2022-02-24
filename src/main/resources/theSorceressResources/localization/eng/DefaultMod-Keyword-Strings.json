@@ -27,5 +27,17 @@
       "multikeyword"
     ],
     "DESCRIPTION": "Make sure the first element in the NAMES is the same as your PROPER_NAME. The rest is to match keywords like the single word keyword."
+  },
+  {
+    "NAMES": [
+      "invoke"
+    ],
+    "DESCRIPTION": "Replace your current #yInvocation with a new #yComponent."
+  },
+  {
+    "NAMES": [
+      "dummy"
+    ],
+    "DESCRIPTION": "Dummy #yComponenet for #bTesting."
   }
 ]
