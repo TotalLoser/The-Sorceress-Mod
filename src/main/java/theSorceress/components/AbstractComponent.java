@@ -35,7 +35,7 @@ public abstract class AbstractComponent extends AbstractOrb {
 
     public void updateDescription() {
         this.applyFocus();
-        this.description = "#yPassive: " + this.invokeDescription + " NL #yEvoke: " + this.attuneDescription;
+        this.description = "#yInvkoked: " + this.invokeDescription + " NL #yAttuned: " + this.attuneDescription + " NL #yState: " + this.currentState;
     }
 
     public void render(SpriteBatch sb) {
