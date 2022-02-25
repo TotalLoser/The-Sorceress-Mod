@@ -177,6 +177,7 @@ public class TheSorceress extends CustomPlayer {
 //        retVal.add(DefaultAttackWithVariable.ID);
 //        retVal.add(DefaultSecondMagicNumberSkill.ID);
 //        retVal.add(OrbSkill.ID);
+        retVal.add(WitchBolt.ID);
         retVal.add(StrikeSorceress.ID);
         retVal.add(StrikeSorceress.ID);
         retVal.add(StrikeSorceress.ID);
@@ -318,5 +319,9 @@ public class TheSorceress extends CustomPlayer {
     {
         return TEXT[3];
     }
+
+    public String getNoCastText() {return  TEXT[4];}
+
+    public String getNoConcentrateText() { return TEXT[5]; }
 
 }
