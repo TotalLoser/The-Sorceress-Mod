@@ -5,6 +5,8 @@ import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.helpers.PowerTip;
 import theSorceress.SorceressMod;
 import theSorceress.powers.Concentration;
 import theSorceress.util.TextureLoader;
@@ -19,7 +21,11 @@ public class ArcaneTattoo extends CustomRelic{
     private static final Texture OUTLINE = TextureLoader.getTexture(makeRelicOutlinePath("placeholder_relic.png"));
 
     public ArcaneTattoo() {
+
         super(ID, IMG, OUTLINE, RelicTier.STARTER, LandingSound.MAGICAL);
+        tips.clear();
+        tips.add(new PowerTip(name, description));
+        this.initializeTips();
     }
 
     @Override
@@ -31,6 +37,11 @@ public class ArcaneTattoo extends CustomRelic{
     }
 
     // Description
+//    public void setDescriptionAfterLoading() {
+//        this.tips.clear();
+//        this.tips.add(new PowerTip(this.name, this.description));
+//
+//    }
     @Override
     public String getUpdatedDescription() {
         return DESCRIPTIONS[0];

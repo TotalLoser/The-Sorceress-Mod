@@ -9,7 +9,8 @@
   },
   "theSorceress:WitchBolt": {
     "NAME": "Witch Bolt",
-    "DESCRIPTION": "Deal !D! damage and thesorceress:Attune thesorceress:Fear."
+    "DESCRIPTION": "Deal !D! damage and thesorceress:Attune thesorceress:Fear.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage and thesorceress:Invoke thesorceress:Fear."
   },
   "theSorceress:Cantrip": {
     "NAME": "Cantrip",
