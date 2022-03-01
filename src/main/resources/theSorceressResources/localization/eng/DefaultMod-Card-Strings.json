@@ -3,13 +3,22 @@
     "NAME": "Strike",
     "DESCRIPTION": "Deal !D! damage."
   },
+  "theSorceress:DefendSorceress": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "theSorceress:WitchBolt": {
+    "NAME": "Witch Bolt",
+    "DESCRIPTION": "Deal !D! damage and thesorceress:Attune thesorceress:Fear.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage and thesorceress:Invoke thesorceress:Fear."
+  },
+  "theSorceress:Cantrip": {
+    "NAME": "Cantrip",
+    "DESCRIPTION": "Deal !D! damage and gain !M! thesorceress:Concentration."
+  },
   "theSorceress:DefaultCommonAttack": {
     "NAME": "Strike",
     "DESCRIPTION": "Deal !D! damage. NL [#0000ff]This[] [#ff0000]Is[] [#ffff00]How[] [#88888]color[] [#ff00ff]works.[]"
-  },
-   "theSorceress:DefendSorceress": {
-    "NAME": "Defend",
-    "DESCRIPTION": "Gain !B! Block."
   },
   "theSorceress:DefaultCommonPower": {
     "NAME": "Hold Place",
@@ -53,13 +62,5 @@
   "theSorceress:OrbSkill": {
     "NAME": "Get Orb",
     "DESCRIPTION": "Channel 1 Default Orb."
-  },
-  "theSorceress:DummyCast": {
-    "NAME": "Cast",
-    "DESCRIPTION": "Deal !D! damage and thesorceress:Cast."
-  },
-  "theSorceress:Cantrip": {
-    "NAME": "Cantrip",
-    "DESCRIPTION": "Deal !D! damage and gain !M! thesorceress:Concentration."
   }
 }

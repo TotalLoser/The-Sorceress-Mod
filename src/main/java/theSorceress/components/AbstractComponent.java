@@ -34,8 +34,12 @@ public abstract class AbstractComponent extends AbstractOrb {
     }
 
     public void updateDescription() {
-        this.applyFocus();
-        this.description = "#yInvkoked: " + this.invokeDescription + " NL #yAttuned: " + this.attuneDescription + " NL #yState: " + this.currentState;
+        if(this.currentState == State.INVOKED) {
+            this.description = invokeDescription;
+        }
+        if(this.currentState == State.ATTUNED){
+            this.description = attuneDescription;
+        }
     }
 
     public void render(SpriteBatch sb) {

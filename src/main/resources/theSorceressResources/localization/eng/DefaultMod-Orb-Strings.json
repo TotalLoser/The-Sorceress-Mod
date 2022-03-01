@@ -1,4 +1,13 @@
 {
+  "theSorceress:Fear": {
+    "NAME": "Fear",
+    "DESCRIPTION": [
+      "#yInvoked: Random enemy loses #b",
+      " #yDexterity.",
+      "#yAttuned: Apply #b",
+      " #yVulnerable to a random enemy."
+    ]
+  },
   "theSorceress:DefaultOrb": {
     "NAME": "Default Orb",
     "DESCRIPTION": [
