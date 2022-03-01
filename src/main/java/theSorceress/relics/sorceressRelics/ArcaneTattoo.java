@@ -44,11 +44,11 @@ public class ArcaneTattoo extends SorceressRelic{
 //    }
 
     // Description
-//    public void setDescriptionAfterLoading() {
-//        this.tips.clear();
-//        this.tips.add(new PowerTip(this.name, this.description));
-//
-//    }
+    public void setDescriptionAfterLoading() {
+        this.tips.clear();
+        this.tips.add(new PowerTip(this.name, this.description));
+        this.initializeTips();
+    }
     @Override
     public String getUpdatedDescription() {
         return DESCRIPTIONS[0];

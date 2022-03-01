@@ -35,7 +35,7 @@
     "NAME": "Arcane Tattoo",
     "FLAVOR": "A glyph of great power forever etched in your back.",
     "DESCRIPTIONS": [
-      "Whenever you #yCast, gain #b1 #yConcentration."
+Fixed Po      "Whenever you #ythesorceress:Cast, gain #b1 #ythesorceress:Concentration."
     ]
   }
 }

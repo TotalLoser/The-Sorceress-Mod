@@ -6,14 +6,14 @@
     "DESCRIPTION": "#yInvoking a #yComponent changes your current invocation to be that component"
   },
   {
+    "NAMES": ["cast"],
+    "DESCRIPTION": "Apply the effects of you #yInvocation and all #yAttunements based on your #yConcentration."
+  },
+  {
     "NAMES": [
       "attune"
     ],
     "DESCRIPTION": "#yAttuning a #yComponent adds it to an empty slot if one exists"
-  },
-  {
-    "NAMES": ["cast"],
-    "DESCRIPTION": "Apply the effects of you #yInvocation and all #yAttunements based on your #yConcentration."
   },
   {
     "NAMES": [
