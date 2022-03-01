@@ -62,5 +62,17 @@
   "theSorceress:OrbSkill": {
     "NAME": "Get Orb",
     "DESCRIPTION": "Channel 1 Default Orb."
+  },
+  "theSorceress:DummyInvoke": {
+    "NAME": "Dummy Invoke",
+    "DESCRIPTION": "thesorceress:Invoke thesorceress:Dummy."
+  },
+  "theSorceress:DummyAttune": {
+    "NAME": "Dummy Attune",
+    "DESCRIPTION": "thesorceress:Attune thesorceress:Dummy."
+  },
+  "theSorceress:DummyCast": {
+    "NAME" : "Dummy Cast",
+    "DESCRIPTION": "Deal !D! damage and thesorceress:Cast"
   }
 }

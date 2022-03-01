@@ -35,7 +35,7 @@
     "NAME": "Arcane Tattoo",
     "FLAVOR": "A glyph of great power forever etched in your back.",
     "DESCRIPTIONS": [
-      "At the start of your turn, gain #b2 #yConcentration."
+      "Whenever you #yCast, gain #b1 #yConcentration."
     ]
   }
 }

@@ -17,5 +17,12 @@
       " NL #yEvoke: Deal #b",
       " damage to all enemies."
     ]
+  },
+  "theSorceress:DummyComponent":{
+    "NAME": "Dummy Component",
+    "DESCRIPTION": [
+      "Deal damage to all opponents.",
+      "Draw card."
+    ]
   }
 }

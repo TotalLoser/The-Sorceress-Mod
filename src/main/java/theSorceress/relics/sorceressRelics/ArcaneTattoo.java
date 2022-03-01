@@ -14,7 +14,7 @@ import theSorceress.util.TextureLoader;
 import static theSorceress.SorceressMod.makeRelicOutlinePath;
 import static theSorceress.SorceressMod.makeRelicPath;
 
-public class ArcaneTattoo extends CustomRelic{
+public class ArcaneTattoo extends SorceressRelic{
     public static final String ID = SorceressMod.makeID("ArcaneTattoo");
 
     private static final Texture IMG = TextureLoader.getTexture(makeRelicPath("placeholder_relic.png"));
@@ -29,12 +29,19 @@ public class ArcaneTattoo extends CustomRelic{
     }
 
     @Override
-    public void atTurnStartPostDraw()//Gain 2 Concentration at turn start
-    {
+    public void onCast() {
         flash();
         AbstractPlayer p = AbstractDungeon.player;
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new Concentration(p, p, 2)));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new Concentration(p, p, 1)));
     }
+
+//    @Override
+//    public void atTurnStartPostDraw()//Gain 2 Concentration at turn start
+//    {
+//        flash();
+//        AbstractPlayer p = AbstractDungeon.player;
+//        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new Concentration(p, p, 2)));
+//    }
 
     // Description
 //    public void setDescriptionAfterLoading() {
